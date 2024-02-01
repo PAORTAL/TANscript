@@ -3,15 +3,15 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[0;100;33m      • TROJAN MENU •          \E[0m"
+echo -e "\E[0;100;33m      •  เมนูTROJAN  •          \E[0m"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-echo -e " [\e[36m•1\e[0m] Create Account Trojan "
-echo -e " [\e[36m•2\e[0m] Trial Account Trojan "
-echo -e " [\e[36m•3\e[0m] Extending Account Trojan "
-echo -e " [\e[36m•4\e[0m] Delete Account Trojan "
-echo -e " [\e[36m•5\e[0m] Check User Login Trojan "
-echo -e " [\e[36m•6\e[0m] User list created Account "
+echo -e " [\e[36m•1\e[0m] สร้างบัญชี   Trojan "
+echo -e " [\e[36m•2\e[0m] ทดลองใช้งาน Trojan "
+echo -e " [\e[36m•3\e[0m] ต่ออายุ     Trojan "
+echo -e " [\e[36m•4\e[0m] ลบบัญชี    Trojan "
+echo -e " [\e[36m•5\e[0m] ตรวจสอบผู้ใช้ Trojan "
+echo -e " [\e[36m•6\e[0m] รายชื่อบัญชี  Trojan "
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mBACK TO MENU\033[0m"
 echo -e   ""
@@ -32,3 +32,4 @@ case $opt in
 x) exit ;;
 *) echo "Anda Salah Tekan" ; sleep 1 ; m-trojan ;;
 esac
+
