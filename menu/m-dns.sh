@@ -1,6 +1,6 @@
 #!/bin/bash
 # =========================================
-# Auther  : givpn
+# Auther  : TANVPN
 # =========================================
 RED='\033[0;31m'
 NC='\033[0m'
@@ -17,7 +17,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$y            DNS CHANGER$wh"
+echo -e "$y              ตั้งค่าDNS$wh"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 dnsfile="/root/dns"
 if test -f "$dnsfile"; then
@@ -26,9 +26,9 @@ echo -e ""
 echo -e "Active DNS : $udns"
 fi
 echo -e ""
-echo -e " [\e[36m•1\e[0m] CHANGE DNS"
-echo -e " [\e[36m•2\e[0m] Reset DNS To Default"
-echo -e " [\e[36m•3\e[0m] Back To Main Menu"
+echo -e " [\e[36m•1\e[0m] เปลี่ยน DNS"
+echo -e " [\e[36m•2\e[0m] รีเซ็ต DNS เป็นค่าเริ่มต้น"
+echo -e " [\e[36m•3\e[0m] กลับสู่เมนูหลัก"
 echo -e ""
 read -p "Select From Options [ 1 - 3 ] :  " dns
 echo -e ""
