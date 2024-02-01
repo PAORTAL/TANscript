@@ -3,7 +3,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[0;100;33m         • RESTART MENU •          \E[0m"
+echo -e "\E[0;100;33m        •  เมนูRESTART  •          \E[0m"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e " [\e[36m•1\e[0m] Restart All Services"
@@ -259,3 +259,4 @@ case $Restart in
                 ;;
                 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; restart ;;               
         esac
+        
